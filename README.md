@@ -1,3 +1,3 @@
 # portfolio_projects
 
-This repo hold my data analyst projects
+This repository holds my early data analysis projects
