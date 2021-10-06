@@ -12,7 +12,7 @@ df <- read.csv('campaign.csv',stringsAsFactors = FALSE)
 bank <- tibble(df)
 
 #View first 5 lines
-head(bank,n=2)
+head(bank,n=5)
 
 #Check the dimension of the data - observations and variables
 dim(bank)
@@ -107,6 +107,5 @@ binom.test(subs)
 ### Conclusion: 
 #The outcome was not due to chance since the p-values in 
 # both tests are less than 0.05. We can conclude that the 
-# number of subcriptions generated was statistically 
-# significant 
+# number of subcriptions generated was statistically significant 
 
